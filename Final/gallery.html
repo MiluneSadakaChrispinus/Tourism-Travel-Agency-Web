@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            background-color: #fafad2;
+            font-family: Arial, sans-serif;
+        }
+        header, nav, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            margin: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="tours.html">Tours</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Travel Photos</h2>
+        <div class="gallery">
+            <img src="images/anguka.jpeg" alt="Destination 1">
+            <img src="images/comp.jpeg" alt="Destination 2">
+            <img src="images/group.jpeg" alt="Destination 3">
+            <img src="images/pic.jpeg" alt="Destination 4">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Travel Agency. All rights reserved.</p>
+    </footer>
+</body>
+</html>
